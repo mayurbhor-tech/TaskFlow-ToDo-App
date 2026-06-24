@@ -11,7 +11,7 @@ function escapeHtml(str) {
   return d.innerHTML;
 }
 
-async function loadTasks() {
+ async function loadTasks() {
   try {
     const res = await fetch('/api/tasks');
     allTasks  = await res.json();
