@@ -83,7 +83,7 @@ async function addTask() {
   const title   = titleEl.value.trim();
   const desc    = descEl.value.trim();
 
-  if (!title) {
+   if (!title) {
     titleEl.focus();
     titleEl.style.borderColor = 'var(--red)';
     titleEl.style.boxShadow   = '0 0 0 3px rgba(248,113,113,0.2)';
