@@ -38,7 +38,7 @@ def index():
 
 
  @app.route('/api/tasks', methods=['GET'])
-def get_tasks():
+ def get_tasks():
     tasks = Task.query.order_by(Task.created_at.desc()).all()
     return jsonify([t.to_dict() for t in tasks])
 
