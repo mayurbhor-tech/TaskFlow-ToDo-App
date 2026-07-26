@@ -101,7 +101,7 @@ body {
 .header-stats { display: flex; gap: 8px; }
 
 .stat-pill {
-  display: flex;
+    display: flex;
   align-items: center;
   gap: 6px;
   padding: 6px 14px;
