@@ -38,7 +38,7 @@ body {
 
 /* ── Ambient orbs ── */
 .orb {
-  position: fixed;
+  position:  fixed;
   border-radius: 50%;
   filter: blur(90px);
   pointer-events: none;
