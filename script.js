@@ -32,7 +32,7 @@ function renderTasks() {
 
   [...list.querySelectorAll('.task-card')].forEach(c => c.remove());
 
-  if (filtered.length === 0) { emptyEl.style.display = 'block'; return; }
+   if (filtered.length === 0) { emptyEl.style.display = 'block'; return; }
   emptyEl.style.display = 'none';
   filtered.forEach((task, i) => list.appendChild(createCard(task, i)));
 }
