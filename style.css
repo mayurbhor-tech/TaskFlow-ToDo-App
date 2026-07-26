@@ -159,7 +159,7 @@ body {
   font-size: 0.95rem;
   outline: none;
   resize: none;
-  transition: border-color var(--transition), box-shadow var(--transition), background var(--transition);
+  transition:   border-color var(--transition), box-shadow var(--transition), background var(--transition);
 }
 .input-field::placeholder { color: var(--text-muted); }
 .input-field:focus {
